@@ -1,13 +1,15 @@
 const model = {
-  app: [
-    "mainPage",
-    "profileShuffle",
-    "createProfile",
-    "logIn",
-    "personalProfile",
-    "createAlbum",
-    "directMessages",
-  ],
+  app: {
+    page: [
+      "mainPage",
+      "profileShuffle",
+      "createProfile",
+      "logIn",
+      "personalProfile",
+      "createAlbum",
+      "directMessages",
+    ],
+  },
 
   inputs: {
     createProfile: {
@@ -16,8 +18,6 @@ const model = {
       age: null,
       hobby: [],
       aboutMe: "",
-      profileImage: "",
-      fotoAlbum: [],
     },
     logIn: {
       userName: "",
