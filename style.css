@@ -1,0 +1,36 @@
+body {
+  background-color: #d9d2e9;
+  color: darkcyan;
+  text-align: center;
+}
+
+button {
+  border: 2px solid darkcyan;
+  background: transparent;
+  color: darkcyan;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+h1 {
+  border: 2px solid darkcyan;
+  width: 25%;
+  margin: 0 auto;
+  padding: 40px 0;
+}
+
+.btn-container {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
+
+.logo-container {
+  text-align: center;
+  margin-top: 150px;
+}
+
+footer {
+  margin-top: 110px;
+}
